@@ -1,0 +1,178 @@
+{
+  "Logistic Regression": {
+    "family": "Linear and Probabilistic",
+    "params": {
+      "C": 1.0,
+      "solver": "lbfgs",
+      "class_weight": "balanced"
+    },
+    "cv_macro_f1": 0.7500653950891578,
+    "cv_std_f1": 0.010102398117204845,
+    "cv_folds": [
+      0.7459608453693041,
+      0.7663196407862505,
+      0.7569711347111431,
+      0.7405243667005731,
+      0.7405509878785179
+    ],
+    "student_test_macro_f1": 0.7500505617731006,
+    "student_test_top1_acc": 0.7632045929018789,
+    "student_test_route_continuity": 0.8806788511749347,
+    "student_test_log_loss": 0.27660848972243435,
+    "student_test_precision": 0.4225282602054006,
+    "student_test_recall": 0.9397835973028069,
+    "confusion_matrix": [
+      [
+        142370,
+        24572
+      ],
+      [
+        1152,
+        17979
+      ]
+    ],
+    "training_time_s": 3.7179150581359863,
+    "inference_time_per_1k_ms": 0.049677958276303814
+  },
+  "K-Nearest Neighbors": {
+    "family": "Instance-based",
+    "params": {
+      "n_neighbors": 15,
+      "weights": "distance",
+      "metric": "euclidean"
+    },
+    "cv_macro_f1": 0.8207785362706199,
+    "cv_std_f1": 0.02832831199959974,
+    "cv_folds": [
+      0.82349919020051,
+      0.8390741572468265,
+      0.8024375442872755,
+      0.8602475366873168,
+      0.7786342529311707
+    ],
+    "student_test_macro_f1": 0.8451566297193454,
+    "student_test_top1_acc": 0.7613778705636743,
+    "student_test_route_continuity": 0.8695561357702349,
+    "student_test_log_loss": 0.19557325994826538,
+    "student_test_precision": 0.7703668413530252,
+    "student_test_recall": 0.6761800219538968,
+    "confusion_matrix": [
+      [
+        163086,
+        3856
+      ],
+      [
+        6195,
+        12936
+      ]
+    ],
+    "training_time_s": 0.32590746879577637,
+    "inference_time_per_1k_ms": 115.66196223170391
+  },
+  "Random Forest": {
+    "family": "Ensemble (Bagging)",
+    "params": {
+      "n_estimators": 100,
+      "max_depth": 12,
+      "class_weight": "balanced_subsample"
+    },
+    "cv_macro_f1": 0.8285808714540354,
+    "cv_std_f1": 0.01741502605383323,
+    "cv_folds": [
+      0.8397281778831294,
+      0.8513679885717058,
+      0.8130250818965632,
+      0.8041923631534782,
+      0.8345907457652997
+    ],
+    "student_test_macro_f1": 0.8342444099861179,
+    "student_test_top1_acc": 0.8004697286012527,
+    "student_test_route_continuity": 0.8969190600522193,
+    "student_test_log_loss": 0.18026599462982368,
+    "student_test_precision": 0.5814007267922034,
+    "student_test_recall": 0.9199205478019967,
+    "confusion_matrix": [
+      [
+        154271,
+        12671
+      ],
+      [
+        1532,
+        17599
+      ]
+    ],
+    "training_time_s": 11.900063276290894,
+    "inference_time_per_1k_ms": 1.9261429969505626
+  },
+  "LightGBM": {
+    "family": "Boosting (GBDT)",
+    "params": {
+      "n_estimators": 150,
+      "max_depth": 7,
+      "learning_rate": 0.08,
+      "scale_pos_weight": 4.0
+    },
+    "cv_macro_f1": 0.8381032948235643,
+    "cv_std_f1": 0.023591880896077916,
+    "cv_folds": [
+      0.8262191676608147,
+      0.8823688758215302,
+      0.8249254579501737,
+      0.841232653702634,
+      0.8157703189826684
+    ],
+    "student_test_macro_f1": 0.8477551643426897,
+    "student_test_top1_acc": 0.804384133611691,
+    "student_test_route_continuity": 0.9008355091383812,
+    "student_test_log_loss": 0.15259957703329446,
+    "student_test_precision": 0.6179381811684831,
+    "student_test_recall": 0.9039255658355548,
+    "confusion_matrix": [
+      [
+        156250,
+        10692
+      ],
+      [
+        1838,
+        17293
+      ]
+    ],
+    "training_time_s": 4.11553955078125,
+    "inference_time_per_1k_ms": 1.4096759717971965
+  },
+  "Multi-Layer Perceptron": {
+    "family": "Neural Networks",
+    "params": {
+      "hidden_layers": "(64, 32)",
+      "activation": "relu",
+      "solver": "adam"
+    },
+    "cv_macro_f1": 0.8495382654345741,
+    "cv_std_f1": 0.019898512312530106,
+    "cv_folds": [
+      0.8614939880903493,
+      0.8764733240415781,
+      0.8179541005437171,
+      0.8392870605527356,
+      0.8524828539444906
+    ],
+    "student_test_macro_f1": 0.8702712329886271,
+    "student_test_top1_acc": 0.7985386221294363,
+    "student_test_route_continuity": 0.8939947780678851,
+    "student_test_log_loss": 0.11700848666517018,
+    "student_test_precision": 0.7755331088664422,
+    "student_test_recall": 0.7585071350164654,
+    "confusion_matrix": [
+      [
+        162742,
+        4200
+      ],
+      [
+        4620,
+        14511
+      ]
+    ],
+    "training_time_s": 33.32192611694336,
+    "inference_time_per_1k_ms": 0.5611837223209586
+  }
+}

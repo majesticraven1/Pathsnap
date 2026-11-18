@@ -1,0 +1,118 @@
+{
+  "trips": [
+    {
+      "Trip ID": "00000000",
+      "Observations": 2503,
+      "Unique Arcs": 186,
+      "Classifier Top-1 (%)": 93.45,
+      "HMM Top-1 (%)": 96.64,
+      "Top-1 Improvement (%)": 3.2,
+      "Classifier Continuity (%)": 94.96,
+      "HMM Continuity (%)": 99.8,
+      "Continuity Improvement (%)": 4.84
+    },
+    {
+      "Trip ID": "00000007",
+      "Observations": 1354,
+      "Unique Arcs": 124,
+      "Classifier Top-1 (%)": 90.03,
+      "HMM Top-1 (%)": 88.63,
+      "Top-1 Improvement (%)": -1.4,
+      "Classifier Continuity (%)": 99.41,
+      "HMM Continuity (%)": 100.0,
+      "Continuity Improvement (%)": 0.59
+    },
+    {
+      "Trip ID": "00000009",
+      "Observations": 1049,
+      "Unique Arcs": 390,
+      "Classifier Top-1 (%)": 81.89,
+      "HMM Top-1 (%)": 89.32,
+      "Top-1 Improvement (%)": 7.44,
+      "Classifier Continuity (%)": 84.45,
+      "HMM Continuity (%)": 95.61,
+      "Continuity Improvement (%)": 11.16
+    },
+    {
+      "Trip ID": "00000040",
+      "Observations": 2995,
+      "Unique Arcs": 316,
+      "Classifier Top-1 (%)": 88.88,
+      "HMM Top-1 (%)": 94.49,
+      "Top-1 Improvement (%)": 5.61,
+      "Classifier Continuity (%)": 95.26,
+      "HMM Continuity (%)": 99.63,
+      "Continuity Improvement (%)": 4.38
+    },
+    {
+      "Trip ID": "00000052",
+      "Observations": 262,
+      "Unique Arcs": 84,
+      "Classifier Top-1 (%)": 93.51,
+      "HMM Top-1 (%)": 97.71,
+      "Top-1 Improvement (%)": 4.2,
+      "Classifier Continuity (%)": 92.34,
+      "HMM Continuity (%)": 96.55,
+      "Continuity Improvement (%)": 4.21
+    },
+    {
+      "Trip ID": "00000056",
+      "Observations": 3958,
+      "Unique Arcs": 979,
+      "Classifier Top-1 (%)": 76.76,
+      "HMM Top-1 (%)": 81.0,
+      "Top-1 Improvement (%)": 4.24,
+      "Classifier Continuity (%)": 86.58,
+      "HMM Continuity (%)": 96.87,
+      "Continuity Improvement (%)": 10.29
+    },
+    {
+      "Trip ID": "00000065",
+      "Observations": 768,
+      "Unique Arcs": 144,
+      "Classifier Top-1 (%)": 75.65,
+      "HMM Top-1 (%)": 82.42,
+      "Top-1 Improvement (%)": 6.77,
+      "Classifier Continuity (%)": 87.35,
+      "HMM Continuity (%)": 98.44,
+      "Continuity Improvement (%)": 11.08
+    },
+    {
+      "Trip ID": "00000076",
+      "Observations": 1486,
+      "Unique Arcs": 372,
+      "Classifier Top-1 (%)": 82.1,
+      "HMM Top-1 (%)": 92.8,
+      "Top-1 Improvement (%)": 10.7,
+      "Classifier Continuity (%)": 84.71,
+      "HMM Continuity (%)": 97.24,
+      "Continuity Improvement (%)": 12.53
+    },
+    {
+      "Trip ID": "00000077",
+      "Observations": 3911,
+      "Unique Arcs": 315,
+      "Classifier Top-1 (%)": 63.18,
+      "HMM Top-1 (%)": 73.38,
+      "Top-1 Improvement (%)": 10.2,
+      "Classifier Continuity (%)": 88.34,
+      "HMM Continuity (%)": 99.57,
+      "Continuity Improvement (%)": 11.23
+    },
+    {
+      "Trip ID": "00000091",
+      "Observations": 874,
+      "Unique Arcs": 196,
+      "Classifier Top-1 (%)": 81.24,
+      "HMM Top-1 (%)": 90.62,
+      "Top-1 Improvement (%)": 9.38,
+      "Classifier Continuity (%)": 83.39,
+      "HMM Continuity (%)": 97.71,
+      "Continuity Improvement (%)": 14.32
+    }
+  ],
+  "mean_classifier_top1_acc": 82.67,
+  "mean_hmm_top1_acc": 88.7,
+  "mean_classifier_continuity": 89.68,
+  "mean_hmm_continuity": 98.14
+}

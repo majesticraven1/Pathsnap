@@ -1,0 +1,6 @@
+Model,Algorithm Family,Key Configuration,CV Macro F1-score,Top-1 Accuracy,Route continuity,Student-Test Macro F1-score,Log Loss,Inference Time
+Logistic Regression,Linear and Probabilistic,"C=1.0, solver=lbfgs, class_weight=balanced",0.7501,76.32%,88.07%,0.7501,0.2766,0.0 ms
+K-Nearest Neighbors,Instance-based,"n_neighbors=15, weights=distance, metric=euclidean",0.8208,76.14%,86.96%,0.8452,0.1956,115.7 ms
+Random Forest,Ensemble (Bagging),"n_estimators=100, max_depth=12, class_weight=balanced_subsample",0.8286,80.05%,89.69%,0.8342,0.1803,1.9 ms
+LightGBM,Boosting (GBDT),"n_estimators=150, max_depth=7, learning_rate=0.08, scale_pos_weight=4.0",0.8381,80.44%,90.08%,0.8478,0.1526,1.4 ms
+Multi-Layer Perceptron,Neural Networks,"hidden_layers=(64, 32), activation=relu, solver=adam",0.8495,79.85%,89.40%,0.8703,0.117,0.6 ms
