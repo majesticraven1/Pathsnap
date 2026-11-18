@@ -39,7 +39,14 @@ app.add_middleware(
 
 # Global model and engine singletons
 MODEL_PATH = Path("pathsnap/artifacts/trained_models/lightgbm_tuned.joblib")
-DATA_DIR = Path("Student folder/Student folder/student_test")
+
+# Select evaluation data directory (evaluator_test if present, else fallback to student_test)
+if Path("evaluator_test/evaluator_test").exists():
+    DATA_DIR = Path("evaluator_test/evaluator_test")
+elif Path("evaluator_test").exists():
+    DATA_DIR = Path("evaluator_test")
+else:
+    DATA_DIR = Path("Student folder/Student folder/student_test")
 
 model = None
 extractor = None
